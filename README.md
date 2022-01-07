@@ -14,6 +14,12 @@ hacking the computer world!!!
 # 查看所有分支
 git branch -a
 
-# 
+# 切出新分支
+git checkout -b 前缀_要做事的名字
+
+git checkout -b feat_add_function_xxx
+
+
+
 
 ```
