@@ -17,3 +17,11 @@ int main() {
 int add(int a, int b) {
     return a + b;
 }
+
+
+// 是否是水仙花
+int is_water_flower(int a, int b, int c) {
+    return a * 100  + b * 10 + c == a * a * a + b * b * b + c * c * c;
+}
+
+
